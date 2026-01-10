@@ -3,6 +3,10 @@
 Sahand Tahermanesh, [Ali Jamali](https://www.researchgate.net/profile/Ali-Jamali), Armin Moghimi, Amin Mohsenifar, Ehsan Khankeshizadeh, and Ali Mohammadzadeh
 
 
+<img src="Architecture.jpg"/>
+
+<img src="Attention.jpg"/>
+
 Citation
 ---------------------
 
@@ -20,6 +24,9 @@ Citation
         url = {https://www.tandfonline.com/doi/full/10.1080/20964471.2025.2598994?src=}
       }
 
+
+<img src="cloud_probabilityMap.jpg"/>
+<img src="CLAM_attention_3samples.jpg"/>
 
 ## License
 
