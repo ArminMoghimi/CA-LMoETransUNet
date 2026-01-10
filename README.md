@@ -2,17 +2,6 @@
 
 Sahand Tahermanesh, [Ali Jamali](https://www.researchgate.net/profile/Ali-Jamali), Armin Moghimi, Amin Mohsenifar, Ehsan Khankeshizadeh, and Ali Mohammadzadeh
 
-# CA-MTransUNet Overall architecture:
-
-<img src="Architecture.jpg"/>
-
-Figure 1. (a) Overview of the proposed CA-MTransU-Net architecture, illustrating hierarchical feature encoding, MoE-based global attention, and decoding with addition-based skip connections; (b) CLAM, illustrating the efficient calculation of global attention via kernel-based approximation; and (c) the MoE transformer module consisting of token-mixing through CLAM and channel-mixing using a linear layer (i.e., MLP).
-
-# Compact Linear Attention Mechanism (CLAM):
-
-<img src="Attention.jpg"/>
-
-Figure 2. Overall architecture of (a) Conventional attention mechanisms, (b) the proposed CLAM adapted from Performer (Choromanski et al., Citation2020). The proposed attention module employs a kernel-based approximation (ReLU) to efficiently compute attention. It reorders computations by first aggregating the values 𝑉 using the keys (𝐾⁢ ′.𝑉) and then weighting this aggregation with the queries (𝑄⁢ ′⁢(𝐾⁢ ′.𝑉)), and (c) a weighted combination of several CLAM-based attention modules.
 
 Citation
 ---------------------
@@ -31,6 +20,15 @@ Citation
         url = {https://www.tandfonline.com/doi/full/10.1080/20964471.2025.2598994?src=}
       }
 
+
+<img src="Architecture.jpg"/>
+
+Figure 1. (a) Overview of the proposed CA-MTransU-Net architecture, illustrating hierarchical feature encoding, MoE-based global attention, and decoding with addition-based skip connections; (b) CLAM, illustrating the efficient calculation of global attention via kernel-based approximation; and (c) the MoE transformer module consisting of token-mixing through CLAM and channel-mixing using a linear layer (i.e., MLP).
+
+
+<img src="Attention.jpg"/>
+
+Figure 2. Overall architecture of (a) Conventional attention mechanisms, (b) the proposed CLAM adapted from Performer (Choromanski et al., Citation2020). The proposed attention module employs a kernel-based approximation (ReLU) to efficiently compute attention. It reorders computations by first aggregating the values 𝑉 using the keys (𝐾⁢ ′.𝑉) and then weighting this aggregation with the queries (𝑄⁢ ′⁢(𝐾⁢ ′.𝑉)), and (c) a weighted combination of several CLAM-based attention modules.
 
 <img src="cloud_probabilityMap.jpg"/>
 
