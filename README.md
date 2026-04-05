@@ -1,7 +1,7 @@
-# CA-MTransUNet: Cloud-Aware Mixture-of-Experts Linear Transformer U-Net for forest burned area (FBA) mapping using Sentinel-1 and Sentinel-2 images
+# CA-MTransUNet: Cloud-Aware Mixture-of-Experts Linear Transformer U-Net for forest burned area (FBA) mapping using Sentinel-1 and Sentinel-2 images: [CA-MTransUNet](https://doi.org/10.1080/20964471.2025.2598994)
+
 
 Sahand Tahermanesh, [Ali Jamali](https://www.researchgate.net/profile/Ali-Jamali), Armin Moghimi, Amin Mohsenifar, Ehsan Khankeshizadeh, and Ali Mohammadzadeh
-
 
 Citation
 ---------------------
